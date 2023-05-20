@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="menu-toggle">
+          <div class="hamburger"></div>
+        </div>
+        <div class="logo">
+          <a href="/index.html"><h2>bit / Code</h2></a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/problems.html">Problems</a></li>
+          <li><a href="#">Algorithms Cheatsheet</a></li>
+          <li><a href="#">Top 75 Questions</a></li>
+          <li><a href="#">Guide</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="button">
+      <div class="button-container">
+        <div class="toggle-buttons">
+          <button id="easyButton" class="toggle">Easy</button>
+
+          <button id="mediumButton" class="toggle">Medium</button>
+          <button id="hardButton" class="toggle">Hard</button>
+        </div>
+      </div>
+    </section>
+    <section class="problems">
+      <div class="container">
+        <div id="easyContent" style="display: none">
+          <div class="easy-container">
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+
+            <div id="task-list">Tasks</div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div id="mediumContent" style="display: none">Medium</div>
+      </div>
+      <div class="container">
+        <div id="hardContent" style="display: none">Hard</div>
+      </div>
+    </section>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
